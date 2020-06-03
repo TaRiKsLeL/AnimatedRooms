@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:700);
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body{
+  /* font-family: "Dosis", Helvetica, Arial, sans-serif;  */
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+  background-color: #F7F9FA;
+  color: #34495e;
+}
+
+.room > .container-fluid {
+  background-color: #d1cfcb;
+} 
+
+.room-objects{
+  position: relative;
+  height: 550px;
+}
+
+.room-objects * {
+  position: absolute;
+  opacity: 0;
+  transition: all .6s ease;
+}
+
+.showed {
+  opacity: 1;
+}
+
+.section-title{
+
+  max-width: 400px;
+  top:100px;
+  left:150px;
+  font-size: 50px;
+  color:white;
+}
+
+.room-bed{
+  width: 350px;
+  top: 100px;
+  right: 230px;
+  z-index: 2;
+} 
+
+.room-pillow-fir{
+  width: 90px;
+  top: 150px;
+  right: 340px;
+  z-index: 3;
+}
+
+.room-pillow-sec{
+  width: 90px;
+  top: 190px;
+  right: 272px;
+  z-index: 4;
+}
+
+.room-blanket{
+  width: 150px;
+  top: 190px;
+  right: 400px;
+  z-index: 4;
+}
+
+.room-drawer-fir{
+  width: 170px;
+  top: 250px;
+  right: 120px;
+  z-index: 3;
+}
+
+.room-drawer-sec{
+  width: 170px;
+  top: 130px;
+  right: 400px;
+  z-index: 1;
+}
+
+.room-mirror{
+  width: 270px;
+  top: 60px;
+  right: 550px;
+  z-index: 1;
+}
+
+.room-candle{
+  width: 30px;
+  top: 130px;
+  right: 470px;
+  z-index: 4;
+}
+
+.room-vase{
+  width: 50px;
+  top: 235px;
+  right: 180px;
+  z-index: 4;
+}

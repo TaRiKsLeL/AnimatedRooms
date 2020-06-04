@@ -9,6 +9,8 @@ body{
   color: #34495e;
 }
 
+/* ====ROOM==== */
+
 .room > .container-fluid {
   background-color: #d1cfcb;
 } 
@@ -21,81 +23,160 @@ body{
 .room-objects * {
   position: absolute;
   opacity: 0;
-  transition: all .6s ease;
+  /* transition: all 60s ease; */
 }
 
-.showed {
-  opacity: 1;
-}
-
-.section-title{
+.room-objects .section-title{
 
   max-width: 400px;
   top:100px;
-  left:150px;
+  left:50px;
   font-size: 50px;
   color:white;
+  z-index: 1;
 }
 
 .room-bed{
   width: 350px;
   top: 100px;
-  right: 230px;
+  right: 130px;
   z-index: 2;
 } 
 
 .room-pillow-fir{
   width: 90px;
   top: 150px;
-  right: 340px;
+  right: 240px;
   z-index: 3;
 }
 
 .room-pillow-sec{
   width: 90px;
   top: 190px;
-  right: 272px;
+  right: 172px;
   z-index: 4;
 }
 
 .room-blanket{
   width: 150px;
   top: 190px;
-  right: 400px;
+  right: 300px;
   z-index: 4;
 }
 
 .room-drawer-fir{
   width: 170px;
   top: 250px;
-  right: 120px;
+  right: 20px;
   z-index: 3;
 }
 
 .room-drawer-sec{
   width: 170px;
   top: 130px;
-  right: 400px;
+  right: 300px;
   z-index: 1;
 }
 
 .room-mirror{
   width: 270px;
   top: 60px;
-  right: 550px;
-  z-index: 1;
+  right: 450px;
+  z-index: 0;
 }
 
 .room-candle{
   width: 30px;
   top: 130px;
-  right: 470px;
+  right: 370px;
   z-index: 4;
 }
 
 .room-vase{
   width: 50px;
   top: 235px;
-  right: 180px;
+  right: 80px;
   z-index: 4;
 }
+
+/* ====WORKTABLE==== */
+
+
+.worktable > .container-fluid {
+  background-color: #cdd5da;
+}
+
+.worktable-objects{
+  position: relative;
+  height: 600px;
+}
+
+.worktable-objects *{
+  position: absolute;
+}
+
+.worktable-objects .section-title{
+  max-width: 400px;
+  top:30px;
+  right:28px;
+  font-size: 50px;
+  color:white;
+  z-index: 1;
+}
+
+.worktable-desk {
+  top: 100px;
+  right: 0px;
+  width: 1000px;
+  z-index: 1;
+}
+
+.worktable-laptop{
+  top: 120px;
+  left: 420px;
+  width: 400px;
+  z-index: 2;
+}
+
+.worktable-sketchbook{
+  top: 150px;
+  left: 300px;
+  width: 230px;
+  z-index: 2;
+}
+
+.worktable-eraser{
+  top: 200px;
+  left: 300px;
+  width: 50px;
+  z-index: 2;
+}
+
+.worktable-pen{
+  top: 190px;
+  left: 330px;
+  width: 100px;
+  z-index: 2;
+}
+
+.worktable-pencil{
+  top: 220px;
+  left: 300px;
+  width: 100px;
+  z-index: 2;
+}
+.worktable-smartphone{
+  top: 480px;
+  left: 640px;
+  width: 130px;
+  z-index: 3;
+}
+
+.worktable-sprayer{
+  top: 380px;
+  left: 950px;
+  width: 130px;
+  z-index: 3;
+}
+
+/* ====WORKTABLE==== */
